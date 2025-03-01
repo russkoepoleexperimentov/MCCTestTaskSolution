@@ -1,0 +1,86 @@
+.col 
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 100%;
+}
+
+.row 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.grow {
+  display: flex;
+  flex-grow: 1;
+}
+
+.tree
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.tree-item
+{
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.tree-item-list
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  gap: 0.25rem;
+}
+
+.tree-item-elements
+{
+  display: flex;
+  flex-direction: row;
+  margin-left: 1rem;
+  gap: 0.25rem;
+}
+
+body{
+  background-color: rgb(56, 58, 71);
+  color: rgb(243, 251, 255);
+}
+
+input, button {
+  display: flex;
+  border-color: transparent;
+  border: 0;
+  border-radius: 99999px;
+  padding: 7px 15px;
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.267) ;
+}
+
+button {
+  justify-content: center;
+  background-color: rgb(53, 76, 177);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.red {
+  background-color: rgb(194, 36, 36);
+}
+
+.text-center {
+  text-align: center;
+}
